@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chrono — Alarm Clock</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<div class="app">
+<aside class="sidebar"><div class="brand"><div class="logo">◷</div> chrono<span style="color:var(--accent)">.</span></div>
+<nav class="nav" id="sideNav"></nav>
+<div class="sidebar-foot"><div style="color:var(--text);font-weight:700;margin-bottom:5px">Your time, your way.</div>Alarms work while Chrono is open. Keep this tab active for the most reliable experience.</div></aside>
+<main class="main"><header class="topbar"><div><div class="eyebrow" id="eyebrow">YOUR PERSONAL TIMEKEEPER</div><h1 class="page-title" id="pageTitle">Good morning.</h1></div><div class="top-actions"><button class="btn hide-mobile" id="themeQuick">☼ Theme</button><button class="btn" id="quickAdd">＋ <span class="hide-mobile">New alarm</span></button></div></header>
+<div id="view"></div></main>
+<nav class="bottom-nav" id="bottomNav"></nav>
+</div>
+<div id="modalRoot"></div><div id="toastRoot"></div><div id="ringRoot"></div>
+<script src="script.js" defer></script>
+</body></html>
